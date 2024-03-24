@@ -1,0 +1,58 @@
+/* Global */
+body {
+  margin: 0;
+}
+
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 30vh;
+  color: white;
+  background-color: rgb(88, 75, 83);
+  border: 1px solid rgb(88, 75, 83);
+}
+
+.header--container {
+  text-align: center;
+}
+
+.header--container h1 {
+  font-size: 3rem;
+}
+
+.header--form {
+  position: relative;
+  height: 2rem;
+  width: 20rem;
+}
+
+.header--form input {
+  text-indent: 10px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.header--form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  aspect-ratio: 1;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+/* Main */
+.main {
+  background-color: rgb(254, 245, 239);
+  width: 100vw;
+  text-align: center;
+  border: 1px solid rgb(254, 245, 239);
+}
